@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
@@ -16,6 +19,11 @@
 
 .navbar{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
 }
 
 .nav-list{
@@ -51,6 +59,7 @@
    /* background-color: blueviolet;*/
     width: 50%;
     text-align: right;
+    padding: 0 23px;
 }
 
 #search{
@@ -109,4 +118,52 @@
     border-radius: 150px;
     display: block;
     margin: auto;
+}
+.text-big{
+
+    font-size: 35px;
+    
+}
+
+.text-small{
+
+    font-size: 15px;
+
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 13px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding: 6px 10px;
+   vertical-align: middle;
+}
+.Section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    font-family: 'ubutun',sans-serif;
+}
+.Section-left{
+   flex-direction: row-reverse;
+
+    }
+ 
+.imgFlud{
+    height: 203px;
+    width: 305px;
+    padding-bottom: 60%;
+    margin-right: 20px;
+}
+.paras{
+    padding: 0px 65px;
 }
