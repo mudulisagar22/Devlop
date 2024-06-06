@@ -145,6 +145,10 @@
     padding: 6px 10px;
    vertical-align: middle;
 }
+.btn-dark{
+    color: black;
+    border: 2px solid black;
+}
 .Section{
     height: 500px;
     display: flex;
@@ -157,13 +161,42 @@
    flex-direction: row-reverse;
 
     }
+    .sectionTag{
+        padding: 20px 0;
+    }
  
 .imgFlud{
     height: 203px;
     width: 305px;
-    padding-bottom: 60%;
+    padding-bottom: 0%;
     margin-right: 20px;
 }
 .paras{
     padding: 0px 65px;
 }
+
+.contact{
+    background-color: #f6f5f4;
+    height: 80vh;
+}
+.text-center{
+    text-align: center;
+    padding: 5px;
+    font-family: 'ubutun',sans-serif;
+    font-size: 30px;
+}
+.form{
+    max-width: 500px;
+    margin: 42px auto;
+}
+
+.form-input{
+    width: 322px;
+    padding: 3px;
+    margin: 13px 0;
+    font-size: 13px;
+    border: solid gray;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
